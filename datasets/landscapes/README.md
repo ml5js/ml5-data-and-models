@@ -1,4 +1,4 @@
-## Landscape dataset
+## Landscapes dataset
 
 The landscapes dataset is roughly 3200 images in seven categories of landscape/environment: city, road, mountain, lake, ocean, field, and forest.
 
