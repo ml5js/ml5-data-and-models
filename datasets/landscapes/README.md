@@ -4,16 +4,7 @@ The landscapes dataset is just under 4000 images in seven categories of landscap
 
 This is a toy dataset to help explain how to gather, process, and structure data, and to use in some of ML5's learning examples.
 
-In the 'licenses' folder, you'll find a JSON file for each category. Each file has a list of the photos and each photo's:
-
-url
-full file name
-license
-image title
-owner's username
-cleaned file name (just the number and extension)
-keyword (same as the category)
-owner id
+In the 'licenses' folder, you'll find a JSON file for each category. Each file has a list of the photos and each photo's url, full file name, license, image title, owner's username, cleaned file name (just the number and extension), keyword (same as the category), and owner id.
 
 The license field here is important. These images are pulled from Flickr, which has the licensing system available here: https://www.flickr.com/services/api/flickr.photos.licenses.getInfo.html
 
@@ -23,7 +14,9 @@ The license field here is important. These images are pulled from Flickr, which 
 
 No image in this dataset has a '0' license, which is for all rights reserved. 
 
-Images with license '1':
+Images with license: 
+
+'1':
 https://creativecommons.org/licenses/by-nc-sa/2.0/
 You may share and adapt these images, with attribution, for non-commercial purposes, under the sharealike license.
 
