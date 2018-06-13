@@ -17,13 +17,13 @@ Inside the `/data` folder, create a new folder with the name of your data. Insid
 Then run:
 
 ```bash
-python train.py --data_dir=./data/my_own_data/
+python train.py --data_dir=./data/my_own_data
 ```
 
 You can specify the hyperparameters:
 
 ```bash
-python train.py --data_dir=./data/my_own_data/ --rnn_size 128 --num_layers 2 --seq_length 64 --batch_size 32 --num_epochs 1000
+python train.py --data_dir=./data/my_own_data --rnn_size 128 --num_layers 2 --seq_length 64 --batch_size 32 --num_epochs 1000
 ```
 
 This will train your model and save the model, **in the globals `./models` folder**, in a format usable in javascript. 
