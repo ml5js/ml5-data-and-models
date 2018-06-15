@@ -1,1 +1,0 @@
-Please note, the images in the datasets have their own individual licenses. Please see each datasets's README for more information. 
