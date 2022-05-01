@@ -1,6 +1,6 @@
 ## Gaussian 2D Clusters
 
-Each CSV contains a set of 2-dimensional x, y points to use as input data for a clustering model, such as `KMeans` or `DBSCAN`.
+Each CSV contains a set of 2-dimensional x, y points to use as input data for a clustering model, such as `KMeans` or `DBSCAN`.  All values are normalized to the range `[0, 1]`.
 
 `2-clusters.csv`, `3-clusters.csv`, and `4-clusters.csv` contain points which are distributed around 2, 3, or 4 cluster centers using a Gaussian distribution. 
 
