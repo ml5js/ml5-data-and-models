@@ -1,0 +1,22 @@
+{
+  "2-clusters": {
+    "filename": "2-clusters.csv",
+    "k": 2
+  },
+  "3-clusters": {
+    "filename": "3-clusters.csv",
+    "k": 3
+  },
+  "4-clusters": {
+    "filename": "4-clusters.csv",
+    "k": 4
+  },
+  "circle": {
+    "filename": "circle.csv",
+    "k": 2
+  },
+  "moon": {
+    "filename": "moon.csv",
+    "k": 2
+  }
+}
